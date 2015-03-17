@@ -1,0 +1,43 @@
+body{
+    background-color: #CCCCCC;
+}
+#wrapper{
+    margin: 10px auto  ;
+    padding: 10px;
+    width: 960px;
+    background-color: #DDDDDD;
+}
+ul>li{
+    display: inline;
+    margin: 10px ;
+    padding: 10px ;
+    color: #ca133c;
+    text-decoration: none;
+}
+nav{
+    text-decoration: none;
+    color: #ca133c;
+}
+a{
+    text-decoration: none;
+    color: #ca133c;
+}
+@font-face {
+    font-family: 'MyWebFont';
+    src:
+    url('PamelawantstoRide.ttf') format('woff2'),
+    url('PamelawantstoRide.ttf') format('truetype');
+}
+nav>ul>li {
+    font-family: 'MyWebFont', Fallback, sans-serif;
+    font-size: 30px;
+}
+@font-face {
+    font-family: 'PamelawantaBiketoRide';
+    src: url('PamelawantaBiketoRide.ttf') format('woff2'),
+    url('PamelawantaBiketoRide.ttf') format('truetype');
+}
+nav>ul>li:hover{
+    font-family: 'PamelawantaBiketoRide', Fallback, sans-serif;
+    font-size: 30px;
+}

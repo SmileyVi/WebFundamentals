@@ -1,0 +1,99 @@
+body{
+    font-family: arial, sans-serif;
+    font-size: 20px;
+}
+#new{
+    color: #6d6d6d;
+}
+#existing{
+    color: #16395c;
+}
+form{
+    display: block;
+    width: 675px;
+    height: 520px;
+    margin: 0 auto;
+    background-color: #c2eeee;
+}
+h1 {
+    color: #1a3d5f;
+    padding: 20px;
+}
+header {
+    font-size: 10px;
+    color: #a4a4a4;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+#new {
+    float: left;
+    width: 300px;
+    padding: 15px;
+    height: 200px;
+}
+
+#existing {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: #234465;
+    color: white;
+}
+input {
+    height: 40px;
+    width: 286px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+#new p, #existing p {
+    font-weight: bold;
+    margin-top: -5px;
+}
+#new input {
+    border-color: #d9d9d9;
+    border-style: solid;
+}
+#register{
+    float: right;
+    width: 130px;
+    color: #365472;
+    background-color: #eeeeee;
+    border-color: #365472;
+    border-style: solid;
+}
+#login {
+    float: right;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border-color: #ffa700;
+    background-color: #234465;
+    border-style: solid;
+}
+#existing a {
+    color: white;
+    font-size: 10px;
+    padding-left: 200px;
+}
+
+#existing label {
+    vertical-align: top;
+    font-size: 0.8em;
+}
+
+#remember {
+    width: 20px;
+    height: 20px;
+}
+#newh{
+    color: #a4a4a4;
+    font-size: 17px;
+}
+#existh{
+    color: #ffffff;
+    font-size: 17px;
+}

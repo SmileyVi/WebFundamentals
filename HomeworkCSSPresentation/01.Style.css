@@ -1,0 +1,96 @@
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 12pt;
+}
+div{
+    width: 520px;
+    height: 190px;
+}
+.box{
+    border-top: 5px dotted yellow;
+    border-left: 6px dashed red;
+    border-right:8px solid green;
+    border-bottom:6px double blue;
+    background-color: white;
+    box-shadow: 15px 14px 5px #3F3F3F;
+}
+h1{
+    font-weight:normal;
+    margin-top: 5px ;
+    padding-top: 5px ;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 8px 8px 5px #a9a9a9;
+}
+.inbox{
+    text-align: center;
+    position: relative;
+    margin: auto 30px 30px 30px;
+    width: 450px;
+    height: 90px;
+    border: 2px solid #FF1A1A;
+    box-shadow: 0 0 0 2px #FBFD00, 0 0 0 4px #006F21, 0 0 0 6px #0028AE;
+    border-radius: 50px;
+}
+ul{
+    list-style: none;
+    margin: auto 0px auto -15px;
+
+}
+ul li{
+    position: relative;
+    margin: auto 10px auto 0px;
+    padding: 2px;
+    background: none repeat scroll 0 0 #D8921A;
+    display: inline;
+    width: 170px;
+    height: 15px;
+    text-align: center;
+    border-bottom: 3px solid #A56401;
+    border-right: 3px solid #A56401;
+    border-top: 3px solid #FCA401;
+    border-left: 3px solid #FCA401;
+    overflow: auto;
+}
+#small-circle {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.6);
+    left: 425px;
+    top: 114px;
+    border: 2px dashed white;
+
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.6);
+}
+
+#large-circle {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.6);
+    left: 465px;
+    top: 78px;
+    border: 2px dashed white;
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.6);
+}
+
+#text-balloon {
+    border-radius: 50px;
+    width: 115px;
+    height: 50px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.6);
+    left: 497px;
+    top: 16px;
+    border: 2px dashed white;
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.6);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-top: 7px;
+}
+

@@ -1,0 +1,9 @@
+body{
+    background-color: #CCCCCC;
+}
+#wrapper{
+    margin: 10px auto  ;
+    padding: 10px;
+    width: 960px;
+    background-color: #DDDDDD;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="03.StylingHTMLForm.css" type="text/css">
+    <title>Styling a HTML Form</title>
+</head>
+<body>
+<form action="#" method="post" class="blue">
+    <h1>Step 1: Your details</h1>
+    <label>
+        <span>Name</span>
+        <input id="name" type="text" name="name" placeholder="First and Last name"/>
+    </label>
+    <label>
+        <span>Email</span>
+        <input id="email" type="email" name="email" placeholder="example@domain.com"/>
+    </label>
+    <label>
+        <span>Phone</span>
+        <input id="phone" type="tel" name="usrtel" placeholder="eg. +447500000000" />
+    </label>
+    <h1>Step 1: Delivery address</h1>
+    <label>
+        <span>Address</span>
+        <textarea>   </textarea>
+    </label>
+    <label>
+        <span>Post code</span>
+        <input id="postCode" type="text" name="postCode" pattern="[0-9]+"/>
+    </label>
+    <label>
+        <span>Country</span>
+         <input id="country" type="text" name="CardNumber"/>
+    </label>
+    <h1>Step 1: Card deatils</h1>
+    <label>
+        <span>Card type</span><br/>
+        <input id="cardType1" type="radio" name="cardType" value="VISA" checked/> <img src="images/visa.png" width="50px" height="45px"/> VISA
+        <input id="cardType2" type="radio" name="cardType" value="AmEx" checked/> <img src="images/credit_card_amex.png" width="50px" height="45px" /> AmEx
+        <input id="cardType3" type="radio" name="cardType" value="MasterCard" checked/><img src="images/mastercard-logo1-280x168.png" width="50px" height="45px" /> MasterCard
+    </label>
+    <label>
+        <span>Card number</span>
+        <input id="CardNumber" type="text" name="CardNumber" pattern="[0-9]+"/>
+    </label>
+    <label>
+        <span>Security code</span>
+        <input id="SecurityCode" type="text" name="SecurityCode" pattern="[0-9]+"/>
+    </label>
+    <label>
+        <span>Name on card</span>
+        <input id="nameOnCard" type="text" name="nameOnCard" placeholder="exact name as on the card"/>
+    </label>
+<input type="button" onclick="alert('Thank you!')" class="button" value="BUY IT">
+</form>
+</body>
+</html>

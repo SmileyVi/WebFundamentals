@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Magic Car Gallery</title>
+    <style>
+        main{
+            -webkit-columns: 300px 2;
+            -moz-columns:300px 2;
+            columns: 300px 2;
+            margin: 10px 10px;
+            padding: 5% 10%;
+
+        }
+        body {
+            font-family: Verdana, sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-variant: normal;
+            color: #eec60b;
+        }
+        .iframe{
+            border: #eec60b;
+            float-defer-column: 1;
+            width: 300px;
+            height: 300px;
+        }
+        section.models{
+            font-family: Verdana, sans-serif;
+            font-size: 27px;
+            font-style: normal;
+            font-variant: normal;
+            color: #ffffff;
+            float-defer-column: 2;
+            margin-left: 5%;
+            padding: auto;
+            width: 300px;
+            height: 300px;
+            text-decoration: none;
+        }
+        nav{
+            text-decoration: none;
+            color: #ffffff;
+        }
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body background bgcolor="#000000">
+<h1 align="center"><strong>Magic Car Gallery</strong></h1>
+<main>
+<section class="iframe">
+        <iframe src="./cars/Ford-Mustang_Boss_302S_mp8_pic_105234.jpg"
+                marginwidth="5px 5px" marginheight="5px 5px" name="imgbox" id="imgbox" scrolling="no"
+                width="300px" height="200px" >
+            <p>iframes are not supported by your browser.</p>
+        </iframe><br />
+</section>
+<section class="models">
+<nav>
+    <a href="./cars/Ford-Mustang_Boss_302S_mp8_pic_105234.jpg" target="imgbox">Ford Mustang</a><br />
+    <a href="./cars/bmwM5.jpg" target="imgbox">BMW M5</a><br />
+    <a href="./cars/porsche-panamera.jpg" target="imgbox">Porsche Panamera</a><br/>
+    <a href="./cars/AUDI-RS5.jpg" target="imgbox">Audi RS5</a><br />
+    <a href="./cars/Mercedes.jpg" target="imgbox">Mercedes-Benz C63 AMG</a>
+</nav>
+</section>
+</main>
+</body>
+</html>

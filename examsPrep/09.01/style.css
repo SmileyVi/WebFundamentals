@@ -1,0 +1,96 @@
+@font-face {
+    font-family:"Lemon Regular";
+    src:url('Lemon%20Regular.ttf');
+    }
+body{
+    font-family: "Lemon Regular", sans-serif;
+    font-size: 15px;
+
+    background-color: purple;
+}
+header{
+    width: 1000px;
+    text-align: center;
+
+    font-size: 24px;
+}
+
+#col1, #col2, #col3, h2{
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffffff;
+}
+#col1, #col2, #col3, h3{
+    text-align: center;
+    color: #d48600;
+}
+#col1, #col2, #col3,p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 10px;
+}
+.wrapper{
+    margin: 20px 40px 40px 40px;
+    background-color: #d48600;
+    border-radius: 10px;
+}
+.container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 900px;
+    margin-left: 120px;
+
+}
+
+.container div {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.container div{
+    width: 220px;
+    margin:50px 10px;
+
+    background-color: #690069;
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.pic{
+    width: 180px;
+    height: 180px;
+    margin-left: 20%;
+    border-radius:90px ;
+    border: 3px solid #9463a3;
+}
+.pic:hover{
+    border: 3px solid #ef0000;
+    cursor: pointer;
+
+}
+input{
+    font-family: "Lemon Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #9463a3;
+    width: 210px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 1px solid;
+
+}
+input:hover{
+    color: black;
+    cursor: pointer;
+
+}

@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+#wrapper{
+    width: 800px;
+    position: fixed;
+}
+header{
+    width: 800px;
+    height: 50px;
+    background-color:#DDDDDD ;
+    border-radius: 10px;
+}
+header>h1{
+    padding-top: 10px;
+    font-weight: normal;
+    color: #8F78E3;
+    text-align: center;
+}
+section{
+    display: inline-block;
+    width: 800px;
+}
+.block{
+    width: 167px;
+    display: inline-block;
+    margin: 10px 5px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.circle{
+    font-size: 25px;
+    color: #EEEEEE;
+    width: 170px;
+    height: 170px;
+    border: none;
+    border-radius: 85px;
+    background-color: #9470DC;
+}
+
+.comment{
+    font-size: 12px;
+    color: #B0A7AE;
+    text-align: center;
+}
+.number{
+    font-size: 65px;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 35px;
+}
+.button{
+    font-size: 10px;
+    width: 170px;
+    height: 25px;
+    background-color: #DDDDDD;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    text-shadow: 2px 2px 2px #ffffff;
+    text-align: center;
+    padding-top: 10px;
+}
+a{
+    font-size: 10px;
+    width: 170px;
+    height: 40px;
+    color: black;
+    text-shadow: 2px 2px 2px #ffffff;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.circle:hover{
+    color: #9470DC;
+    background-color:#ffffff ;
+    cursor: pointer;
+}
+.number:hover{
+    color: #9470DC;
+    cursor: pointer;
+}

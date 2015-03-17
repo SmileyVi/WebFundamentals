@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Search Job</title>
+    <link rel="stylesheet" type="text/css" href="03_style.css">
+</head>
+<body>
+<div id="wrapper">
+    <nav>
+        <ul>
+
+            <li id="search"><a href="03.html"> <img src="resources/03-tab01.png">Search Business</a> </li>
+            <li id="category"> <a href="03.html"> <img src="resources/03-tab02.png">Business Categories</a> </li>
+            <li id="locations"><a href="03.html"> <img src="resources/03-tab03.png">Recent Locations </a> </li>
+            <li id="agents"><a href="03.html"> <img src="resources/03-tab04.png">Agents Located</a> </li>
+
+        </ul>
+
+    </nav>
+
+<form action="#" method="post" class="job">
+    <div>
+    <label for="name">Business Name</label>
+
+        <input id="name" type="text" name="name" placeholder="enter a name"/>
+    </div>
+
+    <div>
+    <label for="country">Country</label>
+
+        <input id="country" type="text" name="country" placeholder="search by country"/>
+</div>
+    <div>
+    <label for="city/state">City / State</label>
+
+        <input id="city/state" type="text" name="city/state" placeholder="search by city or state"/>
+    </div>
+    <div>
+    <label for="zip">ZIP / Postal Code</label>
+
+        <input id="zip" type="text" name="zip" placeholder="enter a postal code" pattern="[0-9]+" />
+    </div>
+    <div>
+    <label for="employers">Employers</label>
+
+        <input id="employers" type="text" name="employers" placeholder="1000-5000" pattern="[0-9]+"/>
+    </div>
+    <div>
+    <label for="start-up-date">Startup Date</label>
+
+        <input id="start-up-date" type="date" name="start-up-date" />
+    </div>
+    <div>
+    <label for="opportunity"> Job Opportunity</label>
+
+        <input id="opportunity" type="text" name="opportunity" placeholder="any"/>
+    </div>
+
+
+    <div class="button">
+        <a href="#" >LET'S FIND YOUR JOB</a>
+    </div>
+</form>
+</div>
+
+</body>
+</html>

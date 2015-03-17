@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+
+}
+.blue{
+
+    width: 500px;
+    height: 800px;
+    background: url("images/formBackground.jpg") no-repeat scroll 0 0;
+    margin: auto;
+    padding: 5px 20px 5px 20px;
+}
+.blue h1{
+    color: #ffffff;
+    font-weight: normal;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.blue label{
+    border:1px solid #ffffff;
+    border-radius: 6px;
+    padding: 5px 20px 5px 20px;
+    margin: 5px 15px;
+    background: rgba(255,255,255, 0.5);
+    display: block;
+}
+.button{
+    color: #ffffff;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px auto;
+    margin: 5px 215px 10px 215px;
+    background-color: #00006a;
+}
+#name, #email, #phone,  #postCode, #country, #CardNumber, #SecurityCode, #nameOnCard,textarea{
+    width: 200px;
+    height: 20px;
+    margin: 5px 30px 5px 20px;
+    border: none;
+    border-radius: 3px;
+}
+#cardType1,#cardType2,#cardType3{
+    margin: 20px 15px 15px 15px;
+}
+textarea{
+    resize: both;
+    overflow: auto;
+    min-width: 150px;
+    min-height: 80px;
+    max-width: 300px;
+    max-height: 400px;
+}
+input{
+    margin: 10px 30px;
+}
